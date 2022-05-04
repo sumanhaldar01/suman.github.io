@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>My website</title>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-dark bg-primary bg-gradient">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SH</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index1.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="//www.instagram.com/_sonuman_/">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Topics
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Writings</a></li>
+                <li><a class="dropdown-item" href="#">Cars</a></li>
+                <!--li><hr class="dropdown-divider" /></li-->
+                <li>
+                  <a class="dropdown-item" href="#">Photography</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-dark" type="submit">GO</button>
+          </form>
+        </div> 
+      </div>
+    </nav><svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+      </symbol>
+      </svg>
+    <div class="alert alert-success d-flex align-items-center" role="alert">
+    <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+    <div>
+    Something Interesting
+    </div>
+    </div>
+    <div class="container">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="12f564ef9c71291bed49344a19317407.png" class="d-block w-100" style="width:500px;height:500px;"alt="img">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>nature is love</p> 
+            <button type="button" class="btn btn-danger">Visit</button>
+            <button type="button" class="btn btn-warning">Save</button>
+            <button type="button" class="btn btn-info">Info</button>
+          </div>
+          </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="99836.jpg" class="d-block w-100" style="width:500px;height:500px;" alt="img">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Snowfall .</p>
+            <button type="button" class="btn btn-danger">Visit</button>
+            <button type="button" class="btn btn-warning">Save</button>
+            <button type="button" class="btn btn-info">Info</button>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="1216414.jpg" class="d-block w-100" style="width:500px;height:500px;" alt="img">
+          <div class="carousel-caption d-none d-md-block">
+            <h5><p class="fst-italic fs-1 text-secondary">Italic text.</p></h5>
+            <p>Some representative placeholder content for the third slide.</p>
+            <button type="button" class="btn btn-danger">Visit</button>
+            <button type="button" class="btn btn-warning">Save</button>
+            <button type="button" class="btn btn-info">Info</button>
+
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <hr>
+    <div class="container-fluid">
+      <div class="row" >
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <img src="download.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lamborghini SIAN </h5>
+              <p class="card-text">ONE OF THE BEST SUPERCARS EVERMADE</p>
+              <a href="https://www.lamborghini.com/en-en" class="btn btn-primary">Know more</a>
+            </div>
+          </div> 
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Know more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4" >
+          <div class="card"style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Know more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>
+    <div class="container-fluid">     !//style="padding-left: 85px;"
+      <div class="row">
+        <div class="col-sm">
+      <div class="box bg-primary overflow-auto" style="width:300px;height:300px" >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id voluptatibus asperiores laborum quo. Sed error dolorum obcaecati doloremque sit at culpa, tempore ullam libero quis? Magnam ipsa vitae labore veniam voluptatem dolorum non quidem dolorem debitis. Illo omnis nesciunt corrupti, assumenda libero totam animi voluptatem fugiat architecto a natus ea ipsa quae deleniti beatae voluptatum cumque itaque! Fugiat amet debitis, deleniti vero corporis similique a modi unde beatae ullam hic nostrum quae cumque molestias voluptas ut quia assumenda asperiores? Quae vel ipsum minus, est corporis labore ratione alias culpa, perferendis assumenda odit nobis error atque doloribus. Ipsam dolorem natus iste odit odio iusto pariatur asperiores nemo quos, recusandae, reprehenderit ea rerum fuga excepturi facere tempora quas ratione incidunt praesentium architecto optio accusamus delectus impedit? Rem porro impedit iusto sint cum!
+      </div>
+      </div>
+      <div class="col-sm" >
+      <div class="box bg-danger overflow-auto" style="width:300px;height:300px" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nemo dolorum, sint iure pariatur, deserunt repudiandae minima corrupti quod, similique officia eum. Adipisci voluptatum tenetur nostrum eaque et! Tempora nam, iusto inventore officia neque accusamus officiis! Cupiditate, veritatis sapiente? Consectetur, ipsum ipsa? Voluptate, ab unde aliquid, consectetur cupiditate blanditiis qui nobis nemo quam assumenda deleniti voluptatum veniam eveniet molestiae soluta minima tempora mollitia voluptatem fugit dolorum placeat ea provident magnam! Quos rerum odit magni, mollitia maxime maiores natus, nisi error aperiam doloremque dicta! Possimus consequuntur accusamus, quaerat soluta ipsum rerum ducimus! Veniam eligendi quo laborum minus ipsum totam aliquid magni delectus, corrupti, modi assumenda inventore minima deleniti temporibus eveniet doloribus reprehenderit. Nisi nam facere minima delectus eius quos quam quibusdam accusantium a. Accusantium ducimus necessitatibus eligendi distinctio, ipsam quae nisi.
+      </div>
+      </div>
+      <div class="col-sm" >
+      <div class="box bg-success overflow-auto" style="width:300px;height:300px" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium esse cum incidunt sit, dolorem itaque! Dolore doloribus quo vitae ipsa tempora iste numquam nesciunt itaque, illum id aliquid velit earum, aliquam est provident rerum sed excepturi omnis possimus ipsum iusto ducimus at suscipit? Voluptatibus, optio doloribus repellendus dolore laudantium neque, at modi fugit nesciunt est accusantium, sapiente impedit magni maxime quos aliquam facere quia esse aut eligendi temporibus doloremque! Voluptatibus amet debitis commodi autem, laborum repellendus maiores vero enim tempore fuga nostrum. Assumenda, dignissimos sequi! In, sequi hic ullam nostrum voluptatum deserunt porro cupiditate distinctio asperiores placeat voluptate laudantium debitis qui quod adipisci repudiandae enim ad! Necessitatibus rem deleniti reprehenderit, eligendi dolorem earum ipsam iure. Error et exercitationem cum ad nostrum dolorum id voluptate non earum tempora? Laboriosam, rerum ad.
+      
+      </div>
+      </div>
+      </div>
+  
+
+    </div>
+    </p>
+  
+    
+  </body>
+  
+</html>
+          
+          
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    
